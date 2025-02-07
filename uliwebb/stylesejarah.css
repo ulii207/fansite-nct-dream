@@ -1,0 +1,155 @@
+*{
+    font-family: 'Roboto Slab' ;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    text-decoration: none ;
+}
+
+
+body{
+    background: white;
+    background-size : cover ;
+}
+
+header{
+    background: #e2336b;
+    padding: 20px 100px;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+header h2{
+    font-size: 2.1rem;
+    color: white;
+}
+
+
+header .navbar a{
+    color: white ;
+    font-size: 1.2rem;
+
+}
+
+
+header .navbar a:hover{
+    color: white ;
+
+}
+
+.navbar{
+    display: flex ;
+    gap: 30px;
+}
+
+.contain {
+    padding: 0 150px;
+}
+
+.content {
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(99, 99, 99);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 24px;
+}
+
+.head h1 {
+    color:#e2336b ;
+    ;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.history , .sub {
+    margin-top: 20px;
+}
+
+.history h3 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content p, strong{
+    color: black;
+}
+
+.paragraph , .p-1{
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 200px;
+    background:  #e2336b ;
+    color: white;
+}
+
+.footer-page{
+    width: 100% ;
+    padding: 50px;
+    display: flex ;
+    gap: 150px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h2,p,a{
+    color: white ;
+}
+
+.location-page{
+    text-align: center;
+}
+
+.location-page h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px ;
+}
+
+.location-page p{
+    font-size: 1.2rem;
+}
+
+.icon-page{
+    display: flex ;
+    gap: 20px ;
+}
+
+.icon-page a{
+    display: inline-flex;
+    padding: 10px ;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 50% ;
+    border: 1px solid white;
+}
+
+.icon-page a i{
+    font-size: 1.5rem;
+}
+
+.icon-page a:hover{
+    background: white ;
+}
+
+.icon-page a:hover > i{
+    color: white ;
+}
+
+.number-page{
+    text-align: center ;
+}
+
+.number-page h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px ;
+}
+
+.number-page p{
+        font-size: 1.0rem;
+
+    
+}
+
+
+

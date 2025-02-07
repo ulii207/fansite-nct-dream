@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto Slab' ;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    text-decoration: none ;
+}
+
+
+body{
+    background: black;
+    background-size : cover ;
+}
+
+p strong { color :black;
+}
+
+header{
+    background: #e2336b;
+    padding: 20px 100px;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+header h2{
+    font-size: 2.1rem;
+}
+
+
+header .navbar a{
+    color: white ;
+    font-size: 1.2rem;
+
+}
+
+
+header .navbar a:hover{
+    color: white ;
+
+}
+
+.navbar{
+    display: flex ;
+    gap: 30px;
+}
+
+.body{
+    width: 60% ;
+    margin: auto ;
+    height: 100% ;
+    padding-top: 50px;
+}
+
+body {
+    color :black;
+    font-size: 0.9rem;
+}
+
+.container{
+    width: 100% ;
+    height: 100% ;
+
+}
+
+.card-container{
+    width: 100% ;
+
+}
+
+
+.card1,.card2{
+    display: flex ;
+    justify-content: end;
+}
+
+
+
+.card{
+    padding: 30px;
+    max-width: 400px;
+    background: #b90b43;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    gap: 10px ;
+}
+
+.footer{
+    background:  #e2336b ;
+    margin-top: 200px ;
+}
+
+.footer-page{
+    width: 100% ;
+    padding: 50px;
+    display: flex ;
+    gap: 150px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-page{
+    text-align: center;
+}
+
+.location-page h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px ;
+}
+
+.location-page p{
+    font-size: 1.2rem;
+}
+
+.icon-page{
+    display: flex ;
+    gap: 20px ;
+}
+
+.icon-page a{
+    display: inline-flex;
+    padding: 10px ;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 50% ;
+    border: 1px solid white;
+}
+
+.icon-page a i{
+    font-size: 1.5rem;
+}
+
+.icon-page a:hover{
+    background: white ;
+}
+
+.icon-page a:hover > i{
+    color: white ;
+}
+
+.number-page{
+    text-align: center ;
+}
+
+.number-page h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px ;
+}
+
+.number-page p{
+        font-size: 1.0rem;
+
+    
+}
+
+
+

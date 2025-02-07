@@ -1,0 +1,14 @@
+.box {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(4.jpg);
+    background-size: cover;
+}
+
+h3,label {
+    color: white;
+}
